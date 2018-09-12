@@ -20,7 +20,7 @@ PHPCodeBlocks.php
 <body>
     <p>
         <!--Embedded PHP-->
-        <?php
+        <?php 
         echo "This text is displayed using standard PHP script.<br>";
         print "Second String. <br>";
         print ("Third String");
