@@ -31,6 +31,8 @@ HelloWorld2.php
         $sunInfo = 72000000;
         $moonInfo = 3456;
         
+/*=============================================*/
+        
         echo "<p>Hello $worldVar<br>";
         echo "The $worldVar is ", number_format(WORLD_INFO, 0), " miles from the $sunVar.<br>";
         echo "Hello ", $sunVar, "!<br>";

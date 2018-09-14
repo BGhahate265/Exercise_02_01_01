@@ -35,7 +35,7 @@ HelloWorld.php
         $x = 3;
         $y = 2;
         $x = $x + $y;
-        //top is same as the bottom line of code
+        //top line is same as the bottom line of code
         $x += $y;
         $x++;
         echo '<p>$returnValue after addition: ', $x, "</p>";

@@ -20,6 +20,7 @@ MultipleScripts.php
 <body>
     <h1>PHP Environment Info</h1>
     <p>This page was rendered with
+        <!--Embedded PHP-->
         <?php
         echo phpversion();
         
@@ -31,11 +32,13 @@ MultipleScripts.php
         ?>
     </p>
     <p>PHP's default MIME type is
+        <!--Embedded PHP-->
         <?php
     echo ini_get("default_mimetype");
         ?>
     </p>
     <p>The maximum allowed execution time of a PHP script is
+        <!--Embedded PHP-->
         <?php
     echo ini_get("max_execution_time");
         ?>
